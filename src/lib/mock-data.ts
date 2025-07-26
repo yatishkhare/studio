@@ -1,0 +1,100 @@
+import type { Property } from '@/types';
+
+export const properties: Property[] = [
+  {
+    id: 'prop1',
+    name: 'The Downtown Dream',
+    price: 350,
+    rating: 4.8,
+    position: { lat: 40.7484, lng: -73.9857 },
+    imageUrl: 'https://placehold.co/450x250',
+    locationName: 'Midtown Manhattan, New York',
+    tags: ['couples', 'business'],
+    nearbyRestaurants: [
+      { name: "Keens Steakhouse", type: "Steakhouse", rating: 4.6 },
+      { name: "Joe's Pizza", type: "Pizza", rating: 4.5 },
+      { name: "Los Tacos No. 1", type: "Tacos", rating: 4.7 },
+      { name: "Carmine's Italian Restaurant", type: "Italian", rating: 4.4 },
+    ],
+    nearbyMetroStations: [
+      { name: 'Times Sq-42 St', distance: '0.3 miles' },
+      { name: '34 St-Herald Sq', distance: '0.2 miles' },
+    ],
+  },
+  {
+    id: 'prop2',
+    name: 'Brooklyn Bridge Views',
+    price: 280,
+    rating: 4.5,
+    position: { lat: 40.7061, lng: -73.9969 },
+    imageUrl: 'https://placehold.co/450x250',
+    locationName: 'DUMBO, Brooklyn',
+    tags: ['family-friendly', 'couples'],
+    nearbyRestaurants: [
+      { name: "Grimaldi's Pizza", type: "Pizza", rating: 4.4 },
+      { name: "The River Café", type: "Fine Dining", rating: 4.6 },
+      { name: "Juliana's Pizza", type: "Pizza", rating: 4.6 },
+    ],
+    nearbyMetroStations: [
+      { name: 'York St', distance: '0.4 miles' },
+      { name: 'High St', distance: '0.5 miles' },
+    ],
+  },
+  {
+    id: 'prop3',
+    name: 'SoHo Solo Sanctuary',
+    price: 420,
+    rating: 4.9,
+    position: { lat: 40.7233, lng: -74.0012 },
+    imageUrl: 'https://placehold.co/450x250',
+    locationName: 'SoHo, New York',
+    tags: ['solo-traveler', 'business'],
+    nearbyRestaurants: [
+      { name: "Balthazar", type: "French Brasserie", rating: 4.5 },
+      { name: "Dominique Ansel Bakery", type: "Bakery", rating: 4.6 },
+      { name: "Sadelle's", type: "Breakfast", rating: 4.3 },
+    ],
+    nearbyMetroStations: [
+      { name: 'Prince St', distance: '0.1 miles' },
+      { name: 'Spring St', distance: '0.2 miles' },
+    ],
+  },
+  {
+    id: 'prop4',
+    name: 'West Village Charm',
+    price: 310,
+    rating: 4.7,
+    position: { lat: 40.7338, lng: -74.0030 },
+    imageUrl: 'https://placehold.co/450x250',
+    locationName: 'West Village, New York',
+    tags: ['couples', 'solo-traveler'],
+    nearbyRestaurants: [
+      { name: "I Sodi", type: "Italian", rating: 4.6 },
+      { name: "Via Carota", type: "Italian", rating: 4.7 },
+      { name: "Don Angie", type: "Italian", rating: 4.8 },
+    ],
+    nearbyMetroStations: [
+      { name: 'Christopher St-Sheridan Sq', distance: '0.2 miles' },
+      { name: 'W 4 St-Wash Sq', distance: '0.4 miles' },
+    ],
+  },
+  {
+    id: 'prop5',
+    name: 'Uptown Family Oasis',
+    price: 250,
+    rating: 4.4,
+    position: { lat: 40.7812, lng: -73.9701 },
+    imageUrl: 'https://placehold.co/450x250',
+    locationName: 'Upper West Side, New York',
+    tags: ['family-friendly'],
+    nearbyRestaurants: [
+      { name: "Carmine's", type: "Italian", rating: 4.5 },
+      { name: "Zabar's", type: "Deli", rating: 4.7 },
+      { name: "Shake Shack", type: "Burgers", rating: 4.4 },
+    ],
+    nearbyMetroStations: [
+      { name: '79 St', distance: '0.3 miles' },
+      { name: '86 St', distance: '0.5 miles' },
+    ],
+  },
+];
